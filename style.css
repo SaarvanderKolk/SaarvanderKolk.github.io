@@ -44,12 +44,20 @@ footer {
     margin-top: 40px;
 }
 
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+.profile-img {
+    width: 180px;          /* adjust size */
+    height: 180px;
+    border-radius: 50%;    /* makes it circular */
     object-fit: cover;
-    border: 4px solid white;
     margin-bottom: 20px;
+    border: 4px solid white;
+}
+.intern-img {
+    width: 180px;          /* adjust size */
+    height: 180px;
+    border-radius: 50%;    /* makes it circular */
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid white;
 }
 
