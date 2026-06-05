@@ -4,188 +4,162 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saar van der Kolk | Portfolio</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
+<nav>
+    <span class="nav-name">SVK</span>
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
 <header>
-
-    <div class="header-flex">
-
-    <img src="images/Sentinel-1 Animation GIF by European Space Agency - ESA.gif" alt="Rotating Earth" class="earth">
-
-    <div>
-
-    <h1>Saar van der Kolk</h1>
-
-    <p>Wageningen University & Research: <b>Msc Geo-Information Science</b>
-       Vrije Universiteit Amsterdam: <b>Bsc Earth, Economics & Sustainability</b></p>
-
+    <div class="header-inner">
+        <div class="header-label">Geo-Information Scientist</div>
+        <h1>Saar van der<br><em>Kolk</em></h1>
+        <div class="header-meta">
+            <span>Wageningen University &amp; Research — MSc Geo-Information Science</span>
+            <span class="dot">·</span>
+            <span>Vrije Universiteit Amsterdam — BSc Earth, Economics &amp; Sustainability</span>
+        </div>
+        <img src="images/Sentinel-1 Animation GIF by European Space Agency - ESA.gif" alt="Rotating Earth from ESA Sentinel-1" class="earth">
+    </div>
+    <div class="header-rule"></div>
 </header>
 
+<main>
+
 <section id="about">
-    <h2>About Me</h2>
-    <p>
-        Hi! I'm Saar, a 22 year old student from Wageningen University & Research in the domain of 
-        Geo-Information Sciences. I'm interested in analysing environmental problems through spatial datasets 
-        and remote sensing products. This way, new insights and building tools will be achieved to understand
-        our surroundings even more. 
-    </p>
-
+    <div class="section-label">001 — About</div>
+    <div class="about-grid">
+        <h2>Spatial thinking<br>for environmental<br>problems.</h2>
+        <p>Hi, I'm Saar — a 22-year-old student from Wageningen University &amp; Research studying Geo-Information Sciences. I'm interested in analysing environmental problems through spatial datasets and remote sensing products, building tools and surfacing insights that deepen our understanding of the world around us.</p>
     </div>
-
-</div>
 </section>
 
 <section id="projects">
-    <h2>Projects</h2>
+    <div class="section-label">002 — Projects</div>
 
-    <div class="project">
-        <h3>🌍 Internship at NLR for the Minor Geo-Information Science (2023)</h3>
-
-        <p>
-            QGIS Analysis to determine the number of people experiencing noise pollution from air traffic
-        </p>
-
+    <div class="project-card">
+        <div class="project-header">
+            <div>
+                <div class="project-tag">Internship · 2023</div>
+                <h3>NLR — Noise Pollution Analysis</h3>
+            </div>
+            <span class="project-icon">🌍</span>
+        </div>
+        <p>QGIS analysis to determine the number of people experiencing noise pollution from air traffic around Dutch airports.</p>
         <div class="image-row">
-
-            <img src="images/NLR_Cover.png" alt="NLR image 1" onclick="openImage(this)">
-            <img src="images/NLR_internship_figure.png" alt="NLR image 2" onclick="openImage(this)">
-            <img src="images/NLR_multikaart.png" alt="NLR image 3" onclick="openImage(this)">
-
+            <img src="images/NLR_Cover.png" alt="NLR cover" onclick="openImage(this)">
+            <img src="images/NLR_internship_figure.png" alt="NLR internship figure" onclick="openImage(this)">
+            <img src="images/NLR_multikaart.png" alt="NLR multi-map" onclick="openImage(this)">
         </div>
     </div>
 
-    <div class="project">
-        <h3>📊 BSc Earth, Economics & Sustainability</h3>
-        <p>2021 - 2025</p>
-
+    <div class="project-card">
+        <div class="project-header">
+            <div>
+                <div class="project-tag">BSc · 2021–2025</div>
+                <h3>Earth, Economics &amp; Sustainability</h3>
+            </div>
+            <span class="project-icon">📊</span>
+        </div>
+        <p>Selected coursework spanning liveability mapping in Amsterdam, resource economics in Suriname, and applied GI tools.</p>
         <div class="image-row">
-
-            <img src="images/Liveability_Amsterdam.png" alt="NLR image 1" onclick="openImage(this)">
-            <img src="images/Bauxiet_Suriname.png" alt="NLR image 2" onclick="openImage(this)">
-            <img src="images/GI_tools1.png" alt="NLR image 3" onclick="openImage(this)">
-
+            <img src="images/Liveability_Amsterdam.png" alt="Liveability Amsterdam" onclick="openImage(this)">
+            <img src="images/Bauxiet_Suriname.png" alt="Bauxite Suriname" onclick="openImage(this)">
+            <img src="images/GI_tools1.png" alt="GI tools" onclick="openImage(this)">
         </div>
     </div>
 
-    <div class="project">
-        <h3>🛰️ MSc Geo-Information Science</h3>
-        <p>
-            <section id="storymap">
+    <div class="project-card">
+        <div class="project-header">
+            <div>
+                <div class="project-tag">MSc · 2025–2027</div>
+                <h3>Geo-Information Science</h3>
+            </div>
+            <span class="project-icon">🛰️</span>
+        </div>
+        <p>Interactive StoryMaps produced during the MSc programme, combining cartography with narrative data journalism.</p>
 
+        <div class="story-grid">
+            <a href="https://storymaps.arcgis.com/stories/fb97088e848b4586b2759b397de53970" target="_blank" class="story-card">
+                <div class="story-img-wrap">
+                    <img src="images/ontario_preview.png" alt="Ontario StoryMap preview">
+                    <div class="story-overlay"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                </div>
+                <div class="story-body">
+                    <div class="story-title">Indigenous Communities in Ontario</div>
+                    <div class="story-sub">ArcGIS StoryMap · Canada</div>
+                </div>
+            </a>
 
-
-<section id="storymaps">
-
-
-<div class="story-container">
-
-<div class="story-card">
-
-<a href="https://storymaps.arcgis.com/stories/fb97088e848b4586b2759b397de53970"
-target="_blank">
-
-<img src="images/ontario_preview.png"
-alt="Ontario StoryMap">
-
-</a>
-
-<h3>Indigenous Communities in Ontario</h3>
-
-<p>
-Interactive ArcGIS StoryMap about indigenous communities in Ontario, Canada.
-</p>
-
-</div>
-
-
-<div class="story-card">
-
-<a href="https://storymaps.arcgis.com/stories/7f304576f6ca4148b61e066e9daa4656"
-target="_blank">
-
-<img src="images/bee_preview.png"
-alt="Bee StoryMap">
-
-</a>
-
-<h3>Temperature and Bee Habitats</h3>
-
-<p>
-Interactive ArcGIS StoryMap exploring temperature effects on bee habitats.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-</section>
-        </p>
+            <a href="https://storymaps.arcgis.com/stories/7f304576f6ca4148b61e066e9daa4656" target="_blank" class="story-card">
+                <div class="story-img-wrap">
+                    <img src="images/bee_preview.png" alt="Bee StoryMap preview">
+                    <div class="story-overlay"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                </div>
+                <div class="story-body">
+                    <div class="story-title">Temperature &amp; Bee Habitats</div>
+                    <div class="story-sub">ArcGIS StoryMap · Climate</div>
+                </div>
+            </a>
+        </div>
     </div>
 
 </section>
 
 <section id="contact">
-    <h2>Contact</h2>
-
+    <div class="section-label">003 — Contact</div>
+    <h2>Get in touch.</h2>
+    <p class="contact-sub">Open to collaborations, internships, and research conversations.</p>
     <div class="contact-icons">
-
-        <a href="mailto:saar.vanderkolk@wur.nl" title="Email">
+        <a href="mailto:saar.vanderkolk@wur.nl" title="Email" aria-label="Email">
             <i class="fa-solid fa-envelope"></i>
         </a>
-
-        <a href="tel:+31618860561" title="Phone">
+        <a href="tel:+31618860561" title="Phone" aria-label="Phone">
             <i class="fa-solid fa-phone"></i>
         </a>
-
-        <a href="https://www.linkedin.com/in/saar-van-der-kolk-7ba430235/" target="_blank" title="LinkedIn">
+        <a href="https://www.linkedin.com/in/saar-van-der-kolk-7ba430235/" target="_blank" title="LinkedIn" aria-label="LinkedIn">
             <i class="fa-brands fa-linkedin"></i>
         </a>
-
-        <a href="https://github.com/SaarvanderKolk" target="_blank" title="GitHub">
+        <a href="https://github.com/SaarvanderKolk" target="_blank" title="GitHub" aria-label="GitHub">
             <i class="fa-brands fa-github"></i>
         </a>
-
     </div>
 </section>
 
+</main>
+
 <footer>
-    <p>© 2026 Saar van der Kolk</p>
+    <span>© 2026 Saar van der Kolk</span>
+    <span>Wageningen · Amsterdam</span>
 </footer>
 
+<!-- Lightbox -->
+<div id="overlay" onclick="closeImage()">
+    <img id="overlay-img" src="" alt="Expanded project image">
+</div>
+
 <script>
-function openImage(img){
-    const overlay = document.createElement("div");
-    overlay.style.position = "fixed";
-    overlay.style.top = "0";
-    overlay.style.left = "0";
-    overlay.style.width = "100%";
-    overlay.style.height = "100%";
-    overlay.style.background = "rgba(0,0,0,0.85)";
-    overlay.style.display = "flex";
-    overlay.style.alignItems = "center";
-    overlay.style.justifyContent = "center";
-    overlay.style.zIndex = "9999";
-
-    const newImg = document.createElement("img");
-    newImg.src = img.src;
-    newImg.style.maxWidth = "90%";
-    newImg.style.maxHeight = "90%";
-    newImg.style.borderRadius = "10px";
-
-    overlay.appendChild(newImg);
-    document.body.appendChild(overlay);
-
-    overlay.onclick = () => overlay.remove();
+function openImage(img) {
+    document.getElementById('overlay-img').src = img.src;
+    document.getElementById('overlay').classList.add('active');
+    document.body.style.overflow = 'hidden';
 }
+function closeImage() {
+    document.getElementById('overlay').classList.remove('active');
+    document.body.style.overflow = '';
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeImage(); });
 </script>
 
 </body>
