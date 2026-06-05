@@ -88,3 +88,17 @@ footer {
     margin-top: 40px;
 }
 
+.header-flex{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.earth{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+}
+
