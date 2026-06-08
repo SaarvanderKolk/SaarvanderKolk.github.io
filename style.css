@@ -440,3 +440,27 @@ footer {
     }
 }
 
+.maps-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.map-label {
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6b6b64;
+  margin-bottom: 8px;
+}
+
+.map-frame {
+  width: 100%;
+  height: 420px;
+  border: 1px solid #dddbd4;
+  border-radius: 8px;
+  display: block;
+}
+
